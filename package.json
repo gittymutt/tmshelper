@@ -1,0 +1,23 @@
+{
+  "name": "tmshelper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background_script.js",
+  "dependencies": {},
+  "devDependencies": {
+    "webextension-polyfill": "^0.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gittymutt/tms-helper-ff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gittymutt/tms-helper-ff/issues"
+  },
+  "homepage": "https://github.com/gittymutt/tms-helper-ff#readme"
+}

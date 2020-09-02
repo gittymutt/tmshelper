@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "TMSHelper",
+  "description": "Fill out forms on the TMS and attendance forms quickly.",
+  "version": "1.2.0",
+  "icons": {
+    "48": "icons/asa32x32.png"
+  },
+  "background": {
+    "scripts": [
+      "background_script.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.asa.edu/*"
+      ],
+      "js": [
+        "browser-polyfill.min.js",
+        "content_script.js"
+
+      ]
+    }
+  ],
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+      "32": "icons/asa32x32.png"
+    },
+    "default_popup": "index.html",
+    "default_title": "TMSHelper"
+  }
+}
